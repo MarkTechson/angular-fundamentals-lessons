@@ -1,27 +1,36 @@
-# AngularFundamentalsLessons
+# Angular Fundamentals Lessons
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.1.
+## What to install
 
-## Development server
+- [Latest version of Node or Active LTS](https://nodejs.org/en/download/)
+- [Angular CLI](https://angular.dev/tools/cli/setup-local#install-the-angular-cli)
+- [Visual Studio Code](https://code.visualstudio.com/download)
+- [Angular Language Service Plugin for VS Code](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## How to run these lesson
 
-## Code scaffolding
+- Clone this repository to your local computer.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```bash
+git clone git@github.com:marktechson/angular-fundamentals-lessons
+```
 
-## Build
+- From the command line, in the root directory (angular-fundamentals-lessons) run the following command:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```bash
+ng serve <lesson>
+```
 
-## Running unit tests
+In order to run the first lesson, for example:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```bash
+ng serve 01-hello-angular
+```
 
-## Running end-to-end tests
+Then, open your browser to `http://localhost:4200` and you'll find the lesson.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Helpful links
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- [Angular.dev playground](https://angular.dev/playground)
+- [Course slides (goo.gle/fem-slides)](https://goo.gle/fem-slides)
+- [Project Code(goo.gle/fem-code)](https://goo.gle/fem-code)
