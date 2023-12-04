@@ -1,0 +1,38 @@
+.badge {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.badge.silver {
+  background: #888;
+}
+.badge.gold {
+  background: #d4af37;
+}
+.badge.platinum {
+  background: #e5e4e2;
+  color: black;
+}
+.membership-info {
+  display: flex;
+  justify-content: space-between;
+}
+.card-title {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+.card-number {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.5rem;
+}
+.card {
+  width: 400px;
+  height: 200px;
+  border: 1px solid black;
+  background: black;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 5px 0 black;
+  color: white;
+}
