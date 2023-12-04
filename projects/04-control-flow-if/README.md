@@ -8,7 +8,7 @@ In this activity you'll learn how to use conditionals in templates.
 
 1. Add the user information to the credit card using the `Account Info` class.
 
-1. Update the component to conditionally display the correct badge representing the credit card using the `membershipStatus` property.
+1. Update `app.component.ts` template to conditionally display the correct badge representing the credit card using the `membershipStatus` property.
 
 1. Save your changes.
 

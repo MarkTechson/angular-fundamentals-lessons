@@ -1,0 +1,40 @@
+:host {
+  font-family: sans-serif;
+}
+hr {
+  border: 0;
+  border-top: 1px solid #eee;
+}
+.detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #888;
+  font-size: 18px;
+}
+.details {
+  padding: 10px;
+}
+.image-parent {
+  margin: 0;
+  padding: 0;
+}
+.product-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.listing {
+  border-radius: 5px;
+  background: white;
+  margin-bottom: 5px;
+  width: 400px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+.title {
+  font-size: calc(18px * 2);
+}
