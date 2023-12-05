@@ -5,11 +5,7 @@ import { CommonModule } from '@angular/common';
   selector: 'app-root',
   standalone: true,
   imports: [CommonModule],
-  template: `
-    <h1>Welcome to {{title}}!</h1>
-
-    
-  `,
+  template: ` <h1>Enable routing to see the greeting below</h1> `,
   styles: [],
 })
 export class AppComponent {
