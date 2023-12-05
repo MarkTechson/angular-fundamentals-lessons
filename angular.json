@@ -1227,6 +1227,94 @@
           }
         }
       }
+    },
+    "13-deferrable-views": {
+      "projectType": "application",
+      "schematics": {},
+      "root": "projects/13-deferrable-views",
+      "sourceRoot": "projects/13-deferrable-views/src",
+      "prefix": "app",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:application",
+          "options": {
+            "outputPath": "dist/13-deferrable-views",
+            "index": "projects/13-deferrable-views/src/index.html",
+            "browser": "projects/13-deferrable-views/src/main.ts",
+            "polyfills": [
+              "zone.js"
+            ],
+            "tsConfig": "projects/13-deferrable-views/tsconfig.app.json",
+            "assets": [
+              "projects/13-deferrable-views/src/favicon.ico",
+              "projects/13-deferrable-views/src/assets"
+            ],
+            "styles": [
+              "projects/13-deferrable-views/src/styles.css"
+            ],
+            "scripts": []
+          },
+          "configurations": {
+            "production": {
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "500kb",
+                  "maximumError": "1mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "2kb",
+                  "maximumError": "4kb"
+                }
+              ],
+              "outputHashing": "all"
+            },
+            "development": {
+              "optimization": false,
+              "extractLicenses": false,
+              "sourceMap": true
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "configurations": {
+            "production": {
+              "buildTarget": "13-deferrable-views:build:production"
+            },
+            "development": {
+              "buildTarget": "13-deferrable-views:build:development"
+            }
+          },
+          "defaultConfiguration": "development"
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "buildTarget": "13-deferrable-views:build"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "polyfills": [
+              "zone.js",
+              "zone.js/testing"
+            ],
+            "tsConfig": "projects/13-deferrable-views/tsconfig.spec.json",
+            "assets": [
+              "projects/13-deferrable-views/src/favicon.ico",
+              "projects/13-deferrable-views/src/assets"
+            ],
+            "styles": [
+              "projects/13-deferrable-views/src/styles.css"
+            ],
+            "scripts": []
+          }
+        }
+      }
     }
   },
   "cli": {

@@ -45,6 +45,10 @@ ng serve 11-dependency-injection
    });
    ```
 
+1. Save your changes.
+
+1. Confirm your changes in the browser.
+
 1. Add a `<app-user-info />` component the the template for each of the records in `userData`, bind a `user` entry to the `user` property of the component.
 
 ### (BONUS) Access real data via `fetch`
