@@ -29,6 +29,10 @@ ng serve 01-hello-angular
 
 Then, open your browser to `http://localhost:4200` and you'll find the lesson.
 
+## Lesson Links
+
+- [Lesson 1](projects/01-hello-angular)
+
 ## Helpful links
 
 - [Angular.dev playground](https://angular.dev/playground)

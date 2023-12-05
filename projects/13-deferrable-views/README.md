@@ -14,3 +14,5 @@ ng serve 13-deferrable-views
 
 1. Add a `@defer` block that defers the loading of the `<app-posts />` component.
 1. Try out other triggers.
+1. Save your changes.
+1. Confirm the updates in the browser.
