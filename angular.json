@@ -2,6 +2,34 @@
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
   "newProjectRoot": "projects",
+  "schematics": {
+    "@schematics/angular:component": {
+      "inlineTemplate": true,
+      "inlineStyle": true,
+      "skipTests": true
+    },
+    "@schematics/angular:class": {
+      "skipTests": true
+    },
+    "@schematics/angular:directive": {
+      "skipTests": true
+    },
+    "@schematics/angular:guard": {
+      "skipTests": true
+    },
+    "@schematics/angular:interceptor": {
+      "skipTests": true
+    },
+    "@schematics/angular:pipe": {
+      "skipTests": true
+    },
+    "@schematics/angular:resolver": {
+      "skipTests": true
+    },
+    "@schematics/angular:service": {
+      "skipTests": true
+    }
+  },
   "projects": {
     "01-hello-angular": {
       "projectType": "application",
@@ -95,17 +123,13 @@
             "outputPath": "dist/00-basic-app",
             "index": "projects/00-basic-app/src/index.html",
             "browser": "projects/00-basic-app/src/main.ts",
-            "polyfills": [
-              "zone.js"
-            ],
+            "polyfills": ["zone.js"],
             "tsConfig": "projects/00-basic-app/tsconfig.app.json",
             "assets": [
               "projects/00-basic-app/src/favicon.ico",
               "projects/00-basic-app/src/assets"
             ],
-            "styles": [
-              "projects/00-basic-app/src/styles.css"
-            ],
+            "styles": ["projects/00-basic-app/src/styles.css"],
             "scripts": []
           },
           "configurations": {
@@ -153,18 +177,13 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "polyfills": [
-              "zone.js",
-              "zone.js/testing"
-            ],
+            "polyfills": ["zone.js", "zone.js/testing"],
             "tsConfig": "projects/00-basic-app/tsconfig.spec.json",
             "assets": [
               "projects/00-basic-app/src/favicon.ico",
               "projects/00-basic-app/src/assets"
             ],
-            "styles": [
-              "projects/00-basic-app/src/styles.css"
-            ],
+            "styles": ["projects/00-basic-app/src/styles.css"],
             "scripts": []
           }
         }
@@ -210,17 +229,13 @@
             "outputPath": "dist/02-displaying-dynamic-data",
             "index": "projects/02-displaying-dynamic-data/src/index.html",
             "browser": "projects/02-displaying-dynamic-data/src/main.ts",
-            "polyfills": [
-              "zone.js"
-            ],
+            "polyfills": ["zone.js"],
             "tsConfig": "projects/02-displaying-dynamic-data/tsconfig.app.json",
             "assets": [
               "projects/02-displaying-dynamic-data/src/favicon.ico",
               "projects/02-displaying-dynamic-data/src/assets"
             ],
-            "styles": [
-              "projects/02-displaying-dynamic-data/src/styles.css"
-            ],
+            "styles": ["projects/02-displaying-dynamic-data/src/styles.css"],
             "scripts": []
           },
           "configurations": {
@@ -268,18 +283,13 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "polyfills": [
-              "zone.js",
-              "zone.js/testing"
-            ],
+            "polyfills": ["zone.js", "zone.js/testing"],
             "tsConfig": "projects/02-displaying-dynamic-data/tsconfig.spec.json",
             "assets": [
               "projects/02-displaying-dynamic-data/src/favicon.ico",
               "projects/02-displaying-dynamic-data/src/assets"
             ],
-            "styles": [
-              "projects/02-displaying-dynamic-data/src/styles.css"
-            ],
+            "styles": ["projects/02-displaying-dynamic-data/src/styles.css"],
             "scripts": []
           }
         }
@@ -325,17 +335,13 @@
             "outputPath": "dist/03-component-composition",
             "index": "projects/03-component-composition/src/index.html",
             "browser": "projects/03-component-composition/src/main.ts",
-            "polyfills": [
-              "zone.js"
-            ],
+            "polyfills": ["zone.js"],
             "tsConfig": "projects/03-component-composition/tsconfig.app.json",
             "assets": [
               "projects/03-component-composition/src/favicon.ico",
               "projects/03-component-composition/src/assets"
             ],
-            "styles": [
-              "projects/03-component-composition/src/styles.css"
-            ],
+            "styles": ["projects/03-component-composition/src/styles.css"],
             "scripts": []
           },
           "configurations": {
@@ -383,18 +389,13 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "polyfills": [
-              "zone.js",
-              "zone.js/testing"
-            ],
+            "polyfills": ["zone.js", "zone.js/testing"],
             "tsConfig": "projects/03-component-composition/tsconfig.spec.json",
             "assets": [
               "projects/03-component-composition/src/favicon.ico",
               "projects/03-component-composition/src/assets"
             ],
-            "styles": [
-              "projects/03-component-composition/src/styles.css"
-            ],
+            "styles": ["projects/03-component-composition/src/styles.css"],
             "scripts": []
           }
         }
@@ -413,17 +414,13 @@
             "outputPath": "dist/04-control-flow-if",
             "index": "projects/04-control-flow-if/src/index.html",
             "browser": "projects/04-control-flow-if/src/main.ts",
-            "polyfills": [
-              "zone.js"
-            ],
+            "polyfills": ["zone.js"],
             "tsConfig": "projects/04-control-flow-if/tsconfig.app.json",
             "assets": [
               "projects/04-control-flow-if/src/favicon.ico",
               "projects/04-control-flow-if/src/assets"
             ],
-            "styles": [
-              "projects/04-control-flow-if/src/styles.css"
-            ],
+            "styles": ["projects/04-control-flow-if/src/styles.css"],
             "scripts": []
           },
           "configurations": {
@@ -471,18 +468,13 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "polyfills": [
-              "zone.js",
-              "zone.js/testing"
-            ],
+            "polyfills": ["zone.js", "zone.js/testing"],
             "tsConfig": "projects/04-control-flow-if/tsconfig.spec.json",
             "assets": [
               "projects/04-control-flow-if/src/favicon.ico",
               "projects/04-control-flow-if/src/assets"
             ],
-            "styles": [
-              "projects/04-control-flow-if/src/styles.css"
-            ],
+            "styles": ["projects/04-control-flow-if/src/styles.css"],
             "scripts": []
           }
         }
@@ -528,17 +520,13 @@
             "outputPath": "dist/05-control-flow-for",
             "index": "projects/05-control-flow-for/src/index.html",
             "browser": "projects/05-control-flow-for/src/main.ts",
-            "polyfills": [
-              "zone.js"
-            ],
+            "polyfills": ["zone.js"],
             "tsConfig": "projects/05-control-flow-for/tsconfig.app.json",
             "assets": [
               "projects/05-control-flow-for/src/favicon.ico",
               "projects/05-control-flow-for/src/assets"
             ],
-            "styles": [
-              "projects/05-control-flow-for/src/styles.css"
-            ],
+            "styles": ["projects/05-control-flow-for/src/styles.css"],
             "scripts": []
           },
           "configurations": {
@@ -625,17 +613,13 @@
             "outputPath": "dist/06-input-output",
             "index": "projects/06-input-output/src/index.html",
             "browser": "projects/06-input-output/src/main.ts",
-            "polyfills": [
-              "zone.js"
-            ],
+            "polyfills": ["zone.js"],
             "tsConfig": "projects/06-input-output/tsconfig.app.json",
             "assets": [
               "projects/06-input-output/src/favicon.ico",
               "projects/06-input-output/src/assets"
             ],
-            "styles": [
-              "projects/06-input-output/src/styles.css"
-            ],
+            "styles": ["projects/06-input-output/src/styles.css"],
             "scripts": []
           },
           "configurations": {
@@ -722,17 +706,13 @@
             "outputPath": "dist/07-routing-basics",
             "index": "projects/07-routing-basics/src/index.html",
             "browser": "projects/07-routing-basics/src/main.ts",
-            "polyfills": [
-              "zone.js"
-            ],
+            "polyfills": ["zone.js"],
             "tsConfig": "projects/07-routing-basics/tsconfig.app.json",
             "assets": [
               "projects/07-routing-basics/src/favicon.ico",
               "projects/07-routing-basics/src/assets"
             ],
-            "styles": [
-              "projects/07-routing-basics/src/styles.css"
-            ],
+            "styles": ["projects/07-routing-basics/src/styles.css"],
             "scripts": []
           },
           "configurations": {
@@ -819,17 +799,13 @@
             "outputPath": "dist/08-routing-recap",
             "index": "projects/08-routing-recap/src/index.html",
             "browser": "projects/08-routing-recap/src/main.ts",
-            "polyfills": [
-              "zone.js"
-            ],
+            "polyfills": ["zone.js"],
             "tsConfig": "projects/08-routing-recap/tsconfig.app.json",
             "assets": [
               "projects/08-routing-recap/src/favicon.ico",
               "projects/08-routing-recap/src/assets"
             ],
-            "styles": [
-              "projects/08-routing-recap/src/styles.css"
-            ],
+            "styles": ["projects/08-routing-recap/src/styles.css"],
             "scripts": []
           },
           "configurations": {
@@ -916,17 +892,13 @@
             "outputPath": "dist/09-template-driven-forms",
             "index": "projects/09-template-driven-forms/src/index.html",
             "browser": "projects/09-template-driven-forms/src/main.ts",
-            "polyfills": [
-              "zone.js"
-            ],
+            "polyfills": ["zone.js"],
             "tsConfig": "projects/09-template-driven-forms/tsconfig.app.json",
             "assets": [
               "projects/09-template-driven-forms/src/favicon.ico",
               "projects/09-template-driven-forms/src/assets"
             ],
-            "styles": [
-              "projects/09-template-driven-forms/src/styles.css"
-            ],
+            "styles": ["projects/09-template-driven-forms/src/styles.css"],
             "scripts": []
           },
           "configurations": {
@@ -1013,17 +985,13 @@
             "outputPath": "dist/10-reactive-forms",
             "index": "projects/10-reactive-forms/src/index.html",
             "browser": "projects/10-reactive-forms/src/main.ts",
-            "polyfills": [
-              "zone.js"
-            ],
+            "polyfills": ["zone.js"],
             "tsConfig": "projects/10-reactive-forms/tsconfig.app.json",
             "assets": [
               "projects/10-reactive-forms/src/favicon.ico",
               "projects/10-reactive-forms/src/assets"
             ],
-            "styles": [
-              "projects/10-reactive-forms/src/styles.css"
-            ],
+            "styles": ["projects/10-reactive-forms/src/styles.css"],
             "scripts": []
           },
           "configurations": {
@@ -1066,6 +1034,99 @@
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
             "buildTarget": "10-reactive-forms:build"
+          }
+        }
+      }
+    },
+    "11-dependency-injection": {
+      "projectType": "application",
+      "schematics": {
+        "@schematics/angular:component": {
+          "inlineTemplate": true,
+          "inlineStyle": true,
+          "skipTests": true
+        },
+        "@schematics/angular:class": {
+          "skipTests": true
+        },
+        "@schematics/angular:directive": {
+          "skipTests": true
+        },
+        "@schematics/angular:guard": {
+          "skipTests": true
+        },
+        "@schematics/angular:interceptor": {
+          "skipTests": true
+        },
+        "@schematics/angular:pipe": {
+          "skipTests": true
+        },
+        "@schematics/angular:resolver": {
+          "skipTests": true
+        },
+        "@schematics/angular:service": {
+          "skipTests": true
+        }
+      },
+      "root": "projects/11-dependency-injection",
+      "sourceRoot": "projects/11-dependency-injection/src",
+      "prefix": "app",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:application",
+          "options": {
+            "outputPath": "dist/11-dependency-injection",
+            "index": "projects/11-dependency-injection/src/index.html",
+            "browser": "projects/11-dependency-injection/src/main.ts",
+            "polyfills": ["zone.js"],
+            "tsConfig": "projects/11-dependency-injection/tsconfig.app.json",
+            "assets": [
+              "projects/11-dependency-injection/src/favicon.ico",
+              "projects/11-dependency-injection/src/assets"
+            ],
+            "styles": ["projects/11-dependency-injection/src/styles.css"],
+            "scripts": []
+          },
+          "configurations": {
+            "production": {
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "500kb",
+                  "maximumError": "1mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "2kb",
+                  "maximumError": "4kb"
+                }
+              ],
+              "outputHashing": "all"
+            },
+            "development": {
+              "optimization": false,
+              "extractLicenses": false,
+              "sourceMap": true
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "configurations": {
+            "production": {
+              "buildTarget": "11-dependency-injection:build:production"
+            },
+            "development": {
+              "buildTarget": "11-dependency-injection:build:development"
+            }
+          },
+          "defaultConfiguration": "development"
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "buildTarget": "11-dependency-injection:build"
           }
         }
       }
