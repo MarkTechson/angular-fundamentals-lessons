@@ -31,7 +31,19 @@ Then, open your browser to `http://localhost:4200` and you'll find the lesson.
 
 ## Lesson Links
 
-- [Lesson 1](projects/01-hello-angular)
+- [Lesson 01 - 01-hello-angular](projects/01-hello-angular)
+- [Lesson 02 - 02-displaying-dynamic-data](projects/02-displaying-dynamic-data)
+- [Lesson 03 - 03-component-composition](projects/03-component-composition)
+- [Lesson 04 - 04-control-flow-if](projects/04-control-flow-if)
+- [Lesson 05 - 05-control-flow-for](projects/05-control-flow-for)
+- [Lesson 06 - 06-input-output](projects/06-input-output)
+- [Lesson 07 - 07-routing-basics](projects/07-routing-basics)
+- [Lesson 08 - 08-routing-recap](projects/08-routing-recap)
+- [Lesson 09 - 09-template-driven-forms](projects/09-template-driven-forms)
+- [Lesson 10 - 10-reactive-forms](projects/10-reactive-forms)
+- [Lesson 11 - 11-dependency-injection](projects/11-dependency-injection)
+- [Lesson 12 - 12-angular-signals](projects/12-angular-signals)
+- [Lesson 13 - 13-deferrable-views](projects/13-deferrable-views)
 
 ## Helpful links
 
