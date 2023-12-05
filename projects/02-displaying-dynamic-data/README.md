@@ -2,6 +2,14 @@
 
 In this example, you'll display dynamic data to the user with the power of [interpolation in Angular](https://angular.dev/guide/templates/interpolation).
 
+## Run this example
+
+From the command line at the root of the project:
+
+```bash
+ng serve 02-displaying-dynamic-data
+```
+
 ## Instructions
 
 1. In `app.component.ts`, update the `template` property to use interoplation to display real values from the `item` property defined in the component class.

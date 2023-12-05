@@ -2,6 +2,14 @@
 
 Time to get some experience updating component templates and component styles.
 
+## Run this example
+
+From the command line at the root of the project:
+
+```bash
+ng serve 01-hello-angular
+```
+
 ## Instructions
 
 1. In `01-hello-angular/src/app.component.ts`, update the code as follows:

@@ -4,6 +4,14 @@ To express conditional displays in templates, Angular uses the @if template synt
 
 In this activity you'll learn how to use conditionals in templates.
 
+## Run this example
+
+From the command line at the root of the project:
+
+```bash
+ng serve 04-control-flow-if
+```
+
 # Instructions
 
 1. Add the user information to the credit card using the `Account Info` class.
