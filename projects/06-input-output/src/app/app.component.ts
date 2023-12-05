@@ -1,11 +1,9 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { Car } from './car ';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule],
   template: `
     <h1>Saved Cars {{ savedCarList.length }}</h1>
     <section class="container">
