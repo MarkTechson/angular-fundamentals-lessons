@@ -13,6 +13,18 @@ ng serve 13-deferrable-views
 ## Instructions
 
 1. Add a `@defer` block that defers the loading of the `<app-posts />` component.
-1. Try out other triggers.
+1. Try out other triggers:
+
+   - `on idle`
+   - `on immediate`
+   - `on timer(...)`
+   - `on viewport(...)`
+   - `on interaction(...)`
+   - `on hover(...)`
+
+1. Implement other blocks:
+   - `@placeholder`, also try `(minimum 500ms)`
+   - `@loading`, also try `(after 500ms; minimum 1s)`
+   - `@error`
 1. Save your changes.
 1. Confirm the updates in the browser.
