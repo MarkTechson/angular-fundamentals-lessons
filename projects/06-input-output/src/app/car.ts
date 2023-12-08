@@ -4,4 +4,5 @@ export interface Car {
   miles: number;
   price: number;
   year: number;
+  transmission: 'Automatic' | 'Manual';
 }
