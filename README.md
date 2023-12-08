@@ -29,6 +29,14 @@ ng serve 01-hello-angular
 
 Then, open your browser to `http://localhost:4200` and you'll find the lesson.
 
+## Solutions
+
+- All of the solutions are on the `solutions branch. You can access them by using the following command:
+
+```bash
+git checkout solutions
+```
+
 ## Lesson Links
 
 - [Lesson 01 - 01-hello-angular](projects/01-hello-angular)
