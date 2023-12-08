@@ -11,7 +11,7 @@ In this activity, you'll learn how to setup a form using a template-driven appro
 From the command line at the root of the project:
 
 ```bash
-ng serve 09-template-drive-forms
+ng serve 09-template-driven-forms
 ```
 
 ## Instructions
