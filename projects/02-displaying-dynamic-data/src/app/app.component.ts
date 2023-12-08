@@ -7,11 +7,20 @@ import { Component } from '@angular/core';
     <article class="offer">
       <h1>
         <span>Bonus Offer</span>
-        <span>&dollar;<!-- ITEM PRICE --></span>
+        <span>
+          <!-- ITEM PRICE -->
+          {{ item.price }}
+        </span>
       </h1>
       <img src="/assets/noun-product-6277512.png" width="400" />
-      <p><!-- ITEM NAME--></p>
-      <p><!-- ITEM DESCRIPTION --></p>
+      <p>
+        <!-- ITEM NAME-->
+        {{ item.name }}
+      </p>
+      <p>
+        <!-- ITEM DESCRIPTION -->
+        {{ item.description }}
+      </p>
       <button>Order Now</button>
     </article>
   `,

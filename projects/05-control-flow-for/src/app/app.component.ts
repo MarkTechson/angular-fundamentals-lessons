@@ -5,32 +5,52 @@ import { Component } from '@angular/core';
   standalone: true,
   template: `
     <section class="container">
+      @for(car of carList; track car) {
       <!-- This article element represents and entire listing -->
       <article class="listing">
         <div class="image-parent">
           <img class="product-image" src="https://placehold.co/100x100" />
         </div>
         <section class="details">
-          <p class="title"><!-- car make and model--></p>
+          <p class="title">
+            <!-- car make and model-->
+            {{ car.make }} {{ car.model }}
+          </p>
           <hr />
           <p class="detail">
             <span>Year</span>
-            <span><!-- year --></span>
+            <span>
+              <!-- year -->
+              {{ car.year }}
+            </span>
           </p>
           <div class="detail">
             <span>Transmission</span>
-            <span><!-- transmission --></span>
+            <span>
+              <!-- transmission -->
+              {{ car.transmission }}
+            </span>
           </div>
           <p class="detail">
             <span>Mileage</span>
-            <span><!-- miles --></span>
+            <span>
+              <!-- miles -->
+              {{ car.miles }}
+            </span>
           </p>
           <p class="detail">
             <span>Price</span>
-            <span><!-- price --></span>
+            <span>
+              <!-- price -->
+              {{ car.price }}
+            </span>
           </p>
         </section>
       </article>
+      } @empty {
+      <!-- BONUS challenge -->
+      <p>There are no cars to display</p>
+      }
     </section>
   `,
   styleUrl: 'app.component.css',
