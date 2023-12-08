@@ -25,7 +25,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 export class AppComponent {
   handleFormSubmit() {}
 
-  postBlog(title: string, body: string) {
+  postBlog(title: string | null | undefined, body: string | null | undefined) {
     console.log(`Posting blog titles ${title}, with the contents ${body}.`);
   }
 }
