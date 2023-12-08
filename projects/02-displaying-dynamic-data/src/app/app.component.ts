@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
     <article class="offer">
       <h1>
         <span>Bonus Offer</span>
-        <span>$<!-- ITEM PRICE --></span>
+        <span>&dollar;<!-- ITEM PRICE --></span>
       </h1>
       <img src="/assets/noun-product-6277512.png" width="400" />
       <p><!-- ITEM NAME--></p>
