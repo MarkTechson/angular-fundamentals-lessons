@@ -23,13 +23,11 @@ import { Todo } from './todo';
     </label>
     }
   `,
-  styles: [
-    `
+  styles: `
       label {
         display: block;
       }
     `,
-  ],
 })
 export class AppComponent {
   todos = signal<Todo[]>([
