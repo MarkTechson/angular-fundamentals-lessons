@@ -39,3 +39,7 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
