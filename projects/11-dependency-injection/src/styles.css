@@ -39,3 +39,7 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}

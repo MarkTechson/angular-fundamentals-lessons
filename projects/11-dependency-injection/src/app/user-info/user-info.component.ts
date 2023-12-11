@@ -5,8 +5,7 @@ import { User } from '../data';
   selector: 'app-user-info',
   standalone: true,
   template: `
-    <p>{{ user.id }}</p>
-    <p>{{ user.email }}</p>
+    <p>{{ user.id }} {{ user.email }}</p>
     <!-- add more properties to customize -->
   `,
   styles: ``,
